@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Picker} from '@react-native-picker/picker';
 import { StyleSheet, Text, View, SafeAreaView, Button } from 'react-native';
+import backFun from './Components/backFun';
 
 export default function App() {
   //https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=512&date=31-03-2021
@@ -25,6 +26,7 @@ export default function App() {
   const [pickerValueD, setPickerValueD] = useState(0);
   const [pickerValueP, setPickerValueP] = useState("Free");
   const [pickerValueV, setPickerValueV] = useState("Any");
+  const [pickerValueS, setPickerValueS] = useState("available_capacity_dose1");
   var rows = [];
   var rows2 = [];
   for (let i = 0; i < stateD.states[pickerValue].districts.length; i++) {
@@ -78,10 +80,21 @@ export default function App() {
             <Picker.Item label="Any" value="Any" />
         </Picker>
         </View>
+        <Text style={{color: 'white', paddingTop: 20}}>Which Dose</Text>
+        <View style={{backgroundColor: 'gray', marginBottom: 20}}>
+        <Picker
+          style={styles.picker}
+          selectedValue={pickerValueS}
+          onValueChange = { (itemValue) => setPickerValueS(itemValue)}>
+            <Picker.Item label="First Dose" value="available_capacity_dose1" />
+            <Picker.Item label="Second Dose" value="available_capacity_dose2" />
+        </Picker>
+        </View>
         <Button //st1,st2,pickerValueD,pickerValueP,pickerValueV
           onPress={() => {
             let url = st1 + pickerValueD + st2;
             console.log(url);
+            backFun(url,pickerValueP,pickerValueV, pickerValueS);
           }}
           title="Start Search for Slots"
           color="#841584"
@@ -106,8 +119,3 @@ export default function App() {
         paddingBottom: 10
     }
 })
-
-const onPressExecute = (s1,s2,pd,pp,pv) => {
-  let url = s1 + pd + s2;
-  console.log(url);
-}
