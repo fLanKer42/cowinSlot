@@ -1,4 +1,5 @@
-# **cowinSlot**
+# **cowinSlot** 
+## React Native Mobile Application
 
 This is an app that uses the cowin api to notify users when their preferred vaccination slot is available. <br />
 The app is built with react native.
