@@ -5,10 +5,10 @@ The app is built with react native.
 
 ## GUI of the app
 <div>
-<img src='./Screenshot_2021-06-28-16-21-16-51.png' height="500px"/>
-<img src='./Screenshot_2021-06-28-16-22-27-00.png' height="500px"/>
-<img src='./Screenshot_2021-06-28-16-22-35-33.png' height="500px"/>
-<img src='./Screenshot_2021-06-28-16-22-57-96.png' height="500px"/>
+<img src='./assets/images/Screenshot_2021-06-28-16-21-16-51.png' height="500px"/>
+<img src='./assets/images/Screenshot_2021-06-28-16-22-27-00.png' height="500px"/>
+<img src='./assets/images/Screenshot_2021-06-28-16-22-35-33.png' height="500px"/>
+<img src='./assets/images/Screenshot_2021-06-28-16-22-57-96.png' height="500px"/>
  </div>
  
  <hr />
