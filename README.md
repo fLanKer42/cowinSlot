@@ -14,7 +14,9 @@ The app is built with react native.
  <hr />
  The user friendly gui allows users to bypass the challenges of understanding the API and use their own mobile device to fetch from the cowin api.
  <br />
+ <br />
  Instead of relying on third party servers to fetch from the API and inform them, the users have the control in their own hands making this method the fastest.
+ <br />
  <br />
  With an API call every 4 seconds, it notifies users instantly providing them theoretically the fastest and the easiest way to search for a vaccination slot.
 
