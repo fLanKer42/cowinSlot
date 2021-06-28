@@ -2,7 +2,7 @@ import BackgroundTimer from 'react-native-background-timer';
 
 export default function backFun(url, p, v, s) {
     const intervalId = BackgroundTimer.setInterval(() => {
-        // this will be executed every 200 ms
+        // this will be executed every 5000 ms
         // even when app is the the background
         console.log('start');
         fetch(url)
