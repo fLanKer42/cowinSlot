@@ -6,10 +6,10 @@ The app is built with react native.
 
 ## GUI of the app
 <div>
-<img src='./assets/images/Screenshot_2021-06-28-16-21-16-51.png' width="22%"/>
-<img src='./assets/images/Screenshot_2021-06-28-16-22-27-00.png' width="22%"/>
-<img src='./assets/images/Screenshot_2021-06-28-16-22-35-33.png' width="22%"/>
-<img src='./assets/images/Screenshot_2021-06-28-16-22-57-96.png' width="22%"/>
+<img src='https://github.com/fLanKer42/cowinSlot/blob/master/assets/images/Screenshot_2021-06-28-16-21-16-51.png' width="22%"/>
+<img src='https://github.com/fLanKer42/cowinSlot/blob/master/assets/images/Screenshot_2021-06-28-16-22-27-00.png' width="22%"/>
+<img src='https://github.com/fLanKer42/cowinSlot/blob/master/assets/images/Screenshot_2021-06-28-16-22-35-33.png' width="22%"/>
+<img src='https://github.com/fLanKer42/cowinSlot/blob/master/assets/images/Screenshot_2021-06-28-16-22-57-96.png' width="22%"/>
  </div>
  
  <hr />
